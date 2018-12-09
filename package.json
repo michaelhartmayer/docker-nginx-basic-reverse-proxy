@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "lint": "npm eslint ."
+  },
+  "dependencies": {
+    "@ljharb/eslint-config": "^13.0.0"
+  }
+}

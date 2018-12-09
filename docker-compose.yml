@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  proxy:
+    image: nginx:latest
+    container_name: proxy
+    volumes:
+      - ./proxy/nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 8080:80
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    ports:
+      - 8870:80
+
+  backend:
+    container_name: backend
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    ports:
+      - 8871:80
+
+
