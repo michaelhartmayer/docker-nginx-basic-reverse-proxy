@@ -19,6 +19,12 @@ docker-compose up -d
 ```
 
 ### Visit
+Front-End is served to:
 ```
 http://localhost:8080/
+```
+
+Back-End is served to:
+```
+http://localhost:8080/api
 ```
