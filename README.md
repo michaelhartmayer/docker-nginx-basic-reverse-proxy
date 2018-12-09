@@ -1,5 +1,5 @@
 # Docker+Nginx+Node.js
-Just a simple reverse proxy for quickly spinning up prototypes.
+A simple reverse proxy for quickly spinning up prototypes.
 
 ## Getting Started
 

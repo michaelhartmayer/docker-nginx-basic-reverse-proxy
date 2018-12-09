@@ -24,5 +24,3 @@ services:
       dockerfile: Dockerfile
     ports:
       - 8871:80
-
-
